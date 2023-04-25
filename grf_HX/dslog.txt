@@ -1,0 +1,36 @@
+Log-file of program ./dymosim
+(generated: Sat Apr 22 22:40:08 2023)
+
+dymosim started
+... "DynamicVCC.Examples.Chiller.Cycle" simulating
+... "dsin.txt" loading (dymosim input file)
+... loading "BC" from "C:/Jiacheng Ma/BoundaryCondition/Chiller/BC.mat"
+... loading "Mea" from "C:/Jiacheng Ma/BoundaryCondition/Chiller/Mea.mat"
+... "dsres.mat" creating (simulation result file)
+
+Integration started at T = 2000 using integration method DASSL
+(DAE multi-step solver (dassl/dasslrt of Petzold modified by Dassault Systemes))
+
+Integration terminated successfully at T = 3500
+  WARNING: You have many time events. This is probably due to fast sampling.
+  Enable logging of event in Simulation/Setup/Debug/Events during simulation
+   CPU-time for integration                : 11.9 seconds
+   CPU-time for one grid interval          : 79.3 milliseconds
+   CPU-time for initialization             : 0.013 seconds
+   Number of result points                 : 151
+   Number of grid points                   : 151
+   Number of accepted steps                : 3701
+   Number of f-evaluations (dynamics)      : 7383
+   Number of crossing function evaluations : 5401
+   Number of Jacobian-evaluations          : 1951
+   Number of model time events             : 1600
+   Number of input time events             : 0
+   Number of state events                  : 0
+   Number of step events                   : 0
+   Minimum integration stepsize            : 1e-05
+   Maximum integration stepsize            : 8.19
+   Maximum integration order               : 4
+Calling terminal section
+... "dsfinal.txt" creating (final states)
+
+SUCCESSFUL simulation of DynamicVCC.Examples.Chiller.Cycle

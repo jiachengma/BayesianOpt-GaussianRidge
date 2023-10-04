@@ -1,0 +1,9 @@
+**/*.bak
+**/*.bak-mo
+**/status.
+**/stop.
+**/*.c
+**/*.mat
+**/*.txt
+**/dymosim
+

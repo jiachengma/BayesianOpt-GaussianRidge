@@ -1,0 +1,12 @@
+FluidPort
+FluidPort_a
+FluidPort_b
+HeatPort
+HeatPort_in
+HeatPort_out
+FluidPorts_a
+FluidPorts_b
+HeatPorts_a
+HeatPorts_b
+PartialTwoPort
+PartialHeatTransfer
